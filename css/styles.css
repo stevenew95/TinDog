@@ -14,6 +14,19 @@ h1 {
   font-weight: 900;
 }
 
+h2 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
 body {
   font-family: "Ubuntu" , sans-serif;
 }
@@ -71,4 +84,49 @@ body {
 
 .feature-p {
   color: #8f8f8f
+}
+
+.icon {
+  color: #EF8172;
+  margin-bottom: 1rem;
+
+}
+
+.icon:hover {
+  color: #FF4C68;
+}
+
+/*Testimonials*/
+
+#testimonials {
+  text-align: center;
+  background-color: #EF8172;
+  color: #FFF;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Press */
+#press {
+  background-color: #EF8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+#pricing {
+  text-align: center;
 }
